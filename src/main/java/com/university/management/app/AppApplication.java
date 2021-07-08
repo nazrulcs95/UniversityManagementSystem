@@ -1,13 +1,13 @@
-package com.system.university_management;
+package com.university.management.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UniversityManagementSystemApplication {
+public class AppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UniversityManagementSystemApplication.class, args);
+		SpringApplication.run(AppApplication.class, args);
 	}
 
 }
