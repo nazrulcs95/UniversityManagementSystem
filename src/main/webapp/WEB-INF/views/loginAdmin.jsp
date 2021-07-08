@@ -38,7 +38,7 @@
 									name="logon_btn" onclick="return validate()">Login</button>
 
 							</div>
-							<span class="forgot_pass"> <a href="Forgot_pass.php">Forgot
+							<span class="forgot_pass"> <a href="Forgot_pass.jsp">Forgot
 									Password?</a>
 							</span>
 						</div>

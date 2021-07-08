@@ -1,13 +1,5 @@
 <%@ include file="common/header.jsp"%>
-<nav class="main-nav">
-	<ul class="main-nav-ul">
-		<li><a href="index.php">Home</a></li>
-	</ul>
-	<ul class="main-nav-ul2">
-		<li><a href="#">About us</a></li>
-		<li><a href="#">Contact us</a></li>
-	</ul>
-</nav>
+<%@ include file="common/navigation.jsp"%>
 <div class="main">
 	<div class="login_home_page">
 		<div class="row">
@@ -19,9 +11,9 @@
 			</div>
 			<div class="register_home">
 				<h1>Register as :</h1>
-				<a href="RegisterTeacher.php" class="sub2">Teacher</a> <a
-					href="RegisterStudent.php" class="sub3">Student</a> <a
-					href="RegisterStaff.php" class="sub1">Staff</a>
+				<a href="registerTeacher.jsp" class="sub2">Teacher</a> <a
+					href="registerStudent.jsp" class="sub3">Student</a> <a
+					href="registerStaff.jsp" class="sub1">Staff</a>
 			</div>
 
 		</div>

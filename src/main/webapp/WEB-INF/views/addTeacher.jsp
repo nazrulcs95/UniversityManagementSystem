@@ -1,14 +1,14 @@
 <%@ include file="common/header.jsp"%>
 <nav class="main-nav">
 	<ul class="main-nav-ul">
-		<li><a href="AdminPanel.php">Home</a></li>
+		<li><a href="adminPanel.jsp">Home</a></li>
 		<li><a href="#">Profile</a></li>
-		<li><a href="AddStudent.php">Add Student</a></li>
-		<li><a href="AddTeacher.php">Add Teacher</a></li>
-		<li><a href="AddStaff.php">Add Staff</a></li>
+		<li><a href="addStudent.jsp">Add Student</a></li>
+		<li><a href="addTeacher.jsp">Add Teacher</a></li>
+		<li><a href="addStaff.jsp">Add Staff</a></li>
 		<li><a href="#">Add Course</a></li>
 		<li><a href="#">Update Payment</a></li>
-		<li><a href="StudentListAdmin.php">Student List</a></li>
+		<li><a href="studentListAdmin.jsp">Student List</a></li>
 	</ul>
 	<ul class="main-nav-ul2">
 		<li><a href="#">About us</a></li>

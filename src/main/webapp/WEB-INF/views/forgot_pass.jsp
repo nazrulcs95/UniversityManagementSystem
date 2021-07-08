@@ -1,13 +1,5 @@
 <%@ include file="common/header.jsp"%>
-<nav class="main-nav">
-	<ul class="main-nav-ul">
-		<li><a href="#">Home</a></li>
-	</ul>
-	<ul class="main-nav-ul2">
-		<li><a href="index.php">About us</a></li>
-		<li><a href="#">Contact us</a></li>
-	</ul>
-</nav>
+<%@ include file="common/navigation.jsp"%>
 <div class="main">
 	<div class="loginpage">
 		<div class="row">
@@ -24,7 +16,7 @@
 				</form>
 			</div>
 			<div class="forgot_pass">
-				<img class="or_image" src="image/or-seperator.jpg" alt="" />
+				<img class="or_image" src="images/or-seperator.jpg" alt="" />
 				<p>Enter the verification code you got by email.</p>
 				<form class="verify_form" method="post" action="">
 					<div class="forgot_pass_input">

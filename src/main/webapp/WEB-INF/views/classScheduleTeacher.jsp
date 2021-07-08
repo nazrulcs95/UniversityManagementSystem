@@ -1,10 +1,10 @@
 <%@ include file="common/header.jsp"%>
 <nav class="main-nav">
 	<ul class="main-nav-ul">
-		<li><a href="ClassScheduleTeacher.php">Home</a></li>
+		<li><a href="classScheduleTeacher.jsp">Home</a></li>
 		<li><a href="#">Profile</a></li>
 		<li><a href="#">Take Attendance</a></li>
-		<li><a href="UploadResult.php">Update Result</a></li>
+		<li><a href="uploadResult.jsp">Update Result</a></li>
 		<li><a href="#">Student List</a></li>
 	</ul>
 	<ul class="main-nav-ul2">

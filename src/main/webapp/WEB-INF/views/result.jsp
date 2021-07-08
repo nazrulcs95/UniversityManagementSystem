@@ -1,7 +1,7 @@
 <%@ include file="common/header.jsp"%>
         <nav class="main-nav">
             <ul class="main-nav-ul">
-                <li><a href="StudentPanel.php">Home</a></li>
+                <li><a href="studentPanel.jsp">Home</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Course Registration</a></li>
                 <li><a href="#">Result</a></li>
@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="score">
                         <table width="755">
-                                
+                        	<tr>
                                 <td><input type="text" name="searchtxt" title="Enter name for search " class="search" autocomplete="off"/></td>
                                 <td style="float:right"><input type="submit" name="btnsearch" value="Search" id="button-search" title="Search Score" /></td>
                             </tr>

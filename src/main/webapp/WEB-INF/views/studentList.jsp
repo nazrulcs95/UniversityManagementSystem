@@ -1,7 +1,7 @@
 <%@ include file="common/header.jsp"%>
         <nav class="main-nav">
             <ul class="main-nav-ul">
-                <li><a href="TeacherPanel.php">Home</a></li>
+                <li><a href="teacherPanel.jsp">Home</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Take Attendance</a></li>
                 <li><a href="#">Update Result</a></li>
