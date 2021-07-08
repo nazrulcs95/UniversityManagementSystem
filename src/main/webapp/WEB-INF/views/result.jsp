@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>::..Result..::</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="CSS/Database_CSS.css" rel="stylesheet" type="text/css"/>
-        
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <a href="https://www.daffodilvarsity.edu.bd/">
-                    <img src="image/DIU.png">
-                </a>
-            </div>
-            <h1>Result</h1>
-            <ul class="sub-nav-ul">
-                <li><a href="LoginHome.php">Logout</a></li>
-                <li><a href="#">Settings</a></li> 
-                <b>language:</b><br>
-                <select class="lang" name="#">
-                <option value="#">English &nbsp; &nbsp; &nbsp; </option>
-                <option value="#">বাংলা  </option>
-            </select>
-            </ul>
-        </header>
+<%@ include file="common/header.jsp"%>
         <nav class="main-nav">
             <ul class="main-nav-ul">
                 <li><a href="StudentPanel.php">Home</a></li>
@@ -87,12 +56,5 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="footer-main">
-                <p>Copyright@All rights reserved by Nazrul,Kafi,Sourov.</p>
-            </div>
-        </footer>
-    </body>
-    
-</html>
+<%@ include file="common/footer.jsp"%>
 
