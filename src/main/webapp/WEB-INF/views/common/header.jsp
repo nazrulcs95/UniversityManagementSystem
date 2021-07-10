@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
 	<head>
-		<title>::....Login || Admin....::</title>
+		<title>::....${pageName} || ${role}....::</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/Database_CSS.css" rel="stylesheet" type="text/css" />
@@ -25,8 +25,8 @@ and open the template in the editor.
 				</a>
 			</div>
 			<ul class="sub-nav-ul">
-				<li><a href="LoginHome.php">Login</a></li>
-				<li><a href="RegisterHome.php">Register</a></li>
+				<li><a href="loginHome">Login</a></li>
+				<li><a href="registrationHome">Register</a></li>
 				<li><b>language:</b><br> <select class="lang" name="#">
 						<option value="#">English &nbsp; &nbsp; &nbsp;</option>
 						<option value="#">বাংলা</option>

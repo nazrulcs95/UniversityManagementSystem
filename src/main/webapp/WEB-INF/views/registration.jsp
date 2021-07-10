@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="signup">
 				<div class="signup_pannel">
-					<h1>Register as Teacher</h1>
+					<h1>Register as ${role}</h1>
 					<p>Please fill the field below.</p>
 					<form class="register_form" method="post" action="">
 						<div class="form-group">
@@ -19,15 +19,6 @@
 						</div>
 						<div class="form-group">
 							<label class="last_name_label"> Last Name <span
-								class="required">*</span> :
-							</label>
-							<div class="register_in">
-								<input id="register_last_name" type="text" maxlength="100"
-									name="">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="last_name_label"> Username <span
 								class="required">*</span> :
 							</label>
 							<div class="register_in">
@@ -67,19 +58,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="form-group">
-							<label class="mail-label"> Department <span
-								class="required">*</span> :
-							</label>
-							<div class="register_in">
-								<select>
-									<option>Professor</option>
-									<option>Ass. Professor</option>
-									<option>Sr. Lecturer</option>
-									<option>Lecturer</option>
-								</select>
-							</div>
-						</div>
+
 						<div class="form-group">
 							<label class="create_password_label"> Gender: </label>
 							<div class="register_in">
@@ -138,8 +117,7 @@
 						</div>
 						<div class="form-group">
 							<div class="btn">
-								<button class="register_button" value="Register" type="submit"
-									name="register_btn">Register</button>
+								<button class="register_button" value="Register" type="submit">Register</button>
 							</div>
 						</div>
 					</form>
@@ -149,9 +127,4 @@
 	</div>
 </div>
 <%@ include file="common/footer.jsp"%>
-<script>
-	$(document).ready(function() {
-		$("#datepicker").datepicker();
-	});
-</script>
 

@@ -123,7 +123,7 @@ h2{
 .main-nav-ul{
     float: left;
     height: 61px;
-    width: 70%;
+    width: 50%;
     margin:0px 4%;
     padding: 0px;
     list-style-type: none;
@@ -150,6 +150,7 @@ h2{
     height: 61px;
     float: left;
     text-align: center;
+    padding: 0px 1%;
 }
 
 .main-nav-ul a{
@@ -166,7 +167,6 @@ h2{
     color: white;
     font-size: 16px;
     font-family: Microsoft Tai Le;
-    padding:21px 15px;
     line-height: 60px;
 }
 

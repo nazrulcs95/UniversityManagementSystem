@@ -11,9 +11,9 @@
 			</div>
 			<div class="register_home">
 				<h1>Register as :</h1>
-				<a href="registerTeacher.jsp" class="sub2">Teacher</a> <a
-					href="registerStudent.jsp" class="sub3">Student</a> <a
-					href="registerStaff.jsp" class="sub1">Staff</a>
+				<a href="registration?role=Teacher" class="sub2">Teacher</a> <a
+					href="registration?role=Student" class="sub3">Student</a> <a
+					href="registration?role=Staff" class="sub1">Staff</a>
 			</div>
 
 		</div>

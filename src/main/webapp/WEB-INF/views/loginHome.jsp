@@ -6,10 +6,10 @@
 
 			<div class="login_home">
 				<h1>Login as :</h1>
-				<a href="LoginAdmin.jsp" class="sub1">Administrator</a> <a
-					href="LoginTeacher.jsp" class="sub2">Teacher</a> <a
-					href="LoginStudent .jsp" class="sub3">Student</a> <a
-					href="LoginStaff.jsp" class="sub4">Staff</a>
+				<a href="login?role=Administrator" class="sub1">Administrator</a> 
+				<a href="login?role=Teacher" class="sub2">Teacher</a>
+				<a href="login?role=Student" class="sub3">Student</a>
+				<a href="login?role=Staff" class="sub4">Staff</a>
 			</div>
 
 		</div>
