@@ -14,16 +14,9 @@ public class LoginController {
 		return "index";
 	}
 
-	@RequestMapping(value = "/loginHome", method = RequestMethod.GET)
-	public String showLoginHomePage(ModelMap model) {
-		model.put("pageName", "Login Home");
-		return "loginHome";
-	}
-
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String showLoginPage(ModelMap model, @RequestParam String role) {
-		model.put("pageName", "Login");
-		model.put("role", role);
+	public String showLoginPage(ModelMap model) {
 		return "login";
 	}
+	
 }

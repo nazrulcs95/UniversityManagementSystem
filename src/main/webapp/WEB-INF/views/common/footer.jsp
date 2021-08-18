@@ -1,6 +1,6 @@
 		<footer>
 			<div class="footer-main">
-				<p>Copyright@All rights reserved by Nazrul,Kafi,Sourov.</p>
+				<p>Copyright@All rights reserved by Nazrul</p>
 			</div>
 		</footer>
 	</body>

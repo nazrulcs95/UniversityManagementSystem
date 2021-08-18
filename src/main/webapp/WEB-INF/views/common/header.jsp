@@ -25,8 +25,8 @@ and open the template in the editor.
 				</a>
 			</div>
 			<ul class="sub-nav-ul">
-				<li><a href="loginHome">Login</a></li>
-				<li><a href="registrationHome">Register</a></li>
+				<li><a href="login">Login</a></li>
+				<li><a href="registration">Register</a></li>
 				<li><b>language:</b><br> <select class="lang" name="#">
 						<option value="#">English &nbsp; &nbsp; &nbsp;</option>
 						<option value="#">বাংলা</option>

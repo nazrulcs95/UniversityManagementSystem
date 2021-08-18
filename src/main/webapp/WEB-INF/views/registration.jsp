@@ -27,7 +27,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="mail-label"> Email <span class="required">*</span>
+							<label class=""> Email <span class="required">*</span>
 								:
 							</label>
 							<div class="register_in">
@@ -35,7 +35,25 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="mail-label"> Faculty <span class="required">*</span>
+							<label class="create_password_label"> Create Password <span
+								class="required">*</span> :
+							</label>
+							<div class="register_in">
+								<input id="register_create_password" class="form-control"
+									type="password" maxlength="50" name="">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="confirm_password_label"> Confirm Password <span
+								class="required">*</span> :
+							</label>
+							<div class="register_in">
+								<input id="register_confirm_password" class="form-control"
+									type="password" maxlength="50" name="">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class=""> Faculty <span class="required">*</span>
 								:
 							</label>
 							<div class="register_in">
@@ -47,7 +65,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="mail-label"> Department <span
+							<label class=""> Department <span
 								class="required">*</span> :
 							</label>
 							<div class="register_in">
@@ -92,24 +110,7 @@
 									type="text" maxlength="50" name="">
 							</div>
 						</div>
-						<div class="form-group">
-							<label class="create_password_label"> Create Password <span
-								class="required">*</span> :
-							</label>
-							<div class="register_in">
-								<input id="register_create_password" class="form-control"
-									type="password" maxlength="50" name="">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="confirm_password_label"> Confirm Password <span
-								class="required">*</span> :
-							</label>
-							<div class="register_in">
-								<input id="register_confirm_password" class="form-control"
-									type="password" maxlength="50" name="">
-							</div>
-						</div>
+						
 						<div class="form-group">
 							<span class="indicates"> <span class="required">*</span>
 								Indicates required field

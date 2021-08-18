@@ -8,14 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class RgistrationController {
-	@RequestMapping(value="/registrationHome",method=RequestMethod.GET)
-	public String showRegistrationHomePage(ModelMap model) {
-		model.put("pageName", "Registration Home");
-		return "registrationHome";
-	}
 	@RequestMapping(value="/registration",method=RequestMethod.GET)
-	public String showRegistrationPage(ModelMap model,@RequestParam String role) {
-		model.put("role", role);
+	public String showRegistrationPage(ModelMap model) {
 		model.put("pageName", "Registration");
 		return "registration";
 	}
