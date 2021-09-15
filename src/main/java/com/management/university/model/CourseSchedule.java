@@ -35,7 +35,7 @@ public class CourseSchedule{
 	@JoinColumn(name="course_id")
 	private Course course;
 	
-	@OneToOne(fetch = FetchType.LAZY,mappedBy = "courseRegistration")
+	@OneToOne(fetch = FetchType.LAZY,mappedBy = "courseSchedule")
 	private CourseRegistration courseRegistration;
 
 	public CourseSchedule() {
@@ -93,6 +93,14 @@ public class CourseSchedule{
 
 	public void setCourse(Course course) {
 		this.course = course;
+	}
+
+	public CourseRegistration getCourseRegistration() {
+		return courseRegistration;
+	}
+
+	public void setCourseRegistration(CourseRegistration courseRegistration) {
+		this.courseRegistration = courseRegistration;
 	}
 	
 }

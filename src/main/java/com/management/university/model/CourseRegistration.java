@@ -51,7 +51,8 @@ public class CourseRegistration {
 	@OneToOne(fetch = FetchType.LAZY,mappedBy = "courseRegistration")
 	private StudentAttendence studentAttendence;
 	
-	@OneToOne(fetch = FetchType.LAZY,mappedBy = "courseRegistration")
+	@OneToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name="course_schedule_id")
 	private CourseSchedule courseSchedule;
 
 	public CourseRegistration() {
@@ -131,6 +132,14 @@ public class CourseRegistration {
 
 	public void setStudentAttendence(StudentAttendence studentAttendence) {
 		this.studentAttendence = studentAttendence;
+	}
+
+	public CourseSchedule getCourseSchedule() {
+		return courseSchedule;
+	}
+
+	public void setCourseSchedule(CourseSchedule courseSchedule) {
+		this.courseSchedule = courseSchedule;
 	}
 	
 	
