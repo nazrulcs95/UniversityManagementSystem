@@ -1,0 +1,716 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 29, 2016, 2:57:44 PM
+    Author     : Daffodil
+*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.home_h1{
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: Times new roman;
+    color: #009966;
+}
+
+header{
+    background: #91b3cc;
+    padding-top: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+header h1{
+    padding-top: 0px;
+    margin: 30px 20% ;
+    float: left;
+}
+
+.logo{
+    float: left;
+    height: 70px;
+    width: 216px;
+    margin:10px 10px 10px 30px;
+}
+
+.logo img{
+    height: 80px;
+    width: 216px;
+}
+
+.sub-nav-ul{
+    position: absolute;
+    right: 10px;
+    width: 400px;
+    height: 61px;
+    margin:25px 0% 0px 35%;
+    padding: 0px;
+    list-style-type: none;
+}
+
+b{
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.lang{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.sub-nav-ul li{
+    margin-left: 5px;
+    height: 51px;
+    float: left;
+    border: 1px white solid;
+    border-radius: 2px;
+}
+
+.sub-nav-ul a{
+    margin: 0px;
+    padding:14px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Microsoft Tai Le;
+    line-height: 48px;
+    background: #91b3bc;
+}
+
+.sub-nav-ul a:hover{
+    border-radius: 2px;
+    background: #f07057;
+    color: white;
+    transition: .1s linear;
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-family: Poppins-Bold;
+}
+h2{
+    margin: 0px;
+    text-align: center;
+    color: Black;
+    font-family: sans-serif;
+}
+
+
+.main-nav{
+    background: #333333;
+    height: 61px;
+    margin: 0px;
+    width: 100%;
+    border-bottom: 3px #f07057 solid;
+    box-shadow: 0 2px 4px rgba(0,0,0, .2);
+    z-index: 150;
+}
+
+
+.main-nav-ul{
+    float: left;
+    height: 61px;
+    width: 50%;
+    margin:0px 4%;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-nav-ul2{
+    float: left;
+    position: absolute;
+    height: 61px;
+    width: 15%;
+    margin:0px 0%;
+    right: 3%;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-nav-ul li{
+    height: 61px;
+    float: left;
+    text-align: center;
+}
+
+.main-nav-ul2 li{
+    height: 61px;
+    float: left;
+    text-align: center;
+    padding: 0px 1%;
+}
+
+.main-nav-ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Microsoft Tai Le;
+    padding:21px 15px;
+    line-height: 60px;
+}
+
+.main-nav-ul2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Microsoft Tai Le;
+    line-height: 60px;
+}
+
+.main-nav-ul a:hover{
+    background: #f07057;
+    transition: .1s linear;
+}
+
+.main-nav-ul2 a:hover{
+    background: #f07057;
+    transition: .1s linear;
+}
+
+.main{
+    padding: 30px 60px;
+    min-height: 700px;
+    width: 80%;
+    margin: 5px 10%;
+    color: black;
+    position: static;
+}
+
+.table_search{
+    width: 80%;
+    margin-top: 20px;
+}
+.table_list{
+    width: 90%;
+    margin-top: 40px;
+}
+
+.table td{
+    
+    height: 40px;
+    border:1px gray solid;
+}
+
+.score{
+     width: 60%;
+     margin-top: 60px;
+     margin-left: 13%;
+}
+
+.score td input{
+    height: 40px;
+}
+
+.score tr{
+    width: 20%;
+}
+
+.score a{
+    text-decoration: none;
+}
+
+.search_by{
+    height: 40px;
+}
+
+.act_btn{
+    width: 5%;
+}
+.act{
+    width: 98%;
+    background: red;
+    color: white;
+}
+.content_input h1{
+    margin-top: 20px;
+    color: gray;
+    
+}
+/*----------sign up---------*/
+
+
+.loginpage{
+    color: #565656;
+    background: white;
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px .5px #e9edef;
+}
+
+.row{
+    width:100%;
+    min-height: 550px;
+}
+
+.login_home_page{
+    color: #565656;
+    background: white;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px .5px #e9edef;
+}
+
+.login_home{
+    height:200px;
+    width: 40%;
+    margin:60px 30%;
+}
+
+.login_home h1{
+    margin:20px 20%;
+    color: gray;
+    font-family: Times new roman;
+}
+
+.login_home .sub1{
+    float: left;
+    height:170px;
+    width: 45%;
+    margin:0px 2%;
+    background: #6666ff;
+    border: 1px #6666ff solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+.login_home .sub2{
+    float: left;
+    height:170px;
+    width: 45%;
+    margin:0px 2%;
+    background: #ff6633;
+    border: 1px #ff6633 solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+.login_home .sub3{
+    float: left;
+    height:170px;
+    width: 45%;
+    margin:20px 2%;
+    background: #009966;
+    border: 1px #009966 solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+
+.login_home .sub4{
+    float: left;
+    height:170px;
+    width: 45%;
+    margin:20px 2%;
+    background: #666666;
+    border: 1px #666666 solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+
+.login_home .sub1:hover{
+    background: white;
+    color: #6666ff;
+    transition: .2s;
+}
+.login_home .sub2:hover{
+    background: white;
+    color: #ff6633;
+    transition: .2s;
+}
+.login_home .sub3:hover{
+    background: white;
+    color: #009966;
+    transition: .2s;
+}
+.login_home .sub4:hover{
+    background: white;
+    color: #666666;
+    transition: .2s;
+}
+
+
+.register_home{
+    height:200px;
+    width: 60%;
+    margin:60px 20%;
+}
+
+.massage{
+    height: 100px;
+    color: green;
+}
+.register_home h1{
+    margin:20px 20%;
+    color: gray;
+    font-family: Times new roman;
+}
+
+.register_home .sub1{
+    float: left;
+    height:170px;
+    width: 29%;
+    margin:20px 2%;
+    background: #6666ff;
+    border: 1px #6666ff solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+
+.register_home .sub2{
+    float: left;
+    height:170px;
+    width: 29%;
+    margin:20px 2%;
+    background: #ff6633;
+    border: 1px #ff6633 solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+
+.register_home .sub3{
+    float: left;
+    height:170px;
+    width: 29%;
+    margin:20px 2%;
+    background: #009966;
+    border: 1px #009966 solid;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 63px 0px;
+    text-decoration: none;
+}
+
+.register_home .sub1:hover{
+    background: white;
+    color: #6666ff;
+    transition: .2s;
+}
+
+.register_home .sub2:hover{
+    background: white;
+    color: #ff6633;
+    transition: .2s;
+}
+
+.register_home .sub3:hover{
+    background: white;
+    color: #009966;
+    transition: .2s;
+}
+
+.signup{
+    margin: 30px 0% 20px 30%;
+    width: 44%;
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+.signup_pannel h1{
+    text-align: left;
+    color: #c61e53;
+    font-family: Agency FB;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.signup_pannel p{
+    font-family: Microsoft Tai Le;
+    margin: 10px 0px;
+    font-weight: 200;
+    line-height: 21px;
+}
+
+.form-group{
+    margin-top: 20px;
+    display: table;
+}
+
+
+label{
+    width: 150px;
+    float: left;
+    font-size: 13px;
+    font-family: Microsoft Tai Le;
+    text-align: left
+}
+
+.register_in{
+    float: left;
+    font-family: Microsoft Tai Le;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.radio{
+    margin: 0px;
+    width: 25px;
+}
+
+.radio:focus{
+    margin: 0px;
+    width: 25px;
+}
+
+input{
+    width: 200px;
+    border-radius:0px;
+    border:1px #cac4c4 solid;
+}
+input:focus{
+    width: 200px;
+    border-radius:0px;
+    border:1px #72b5ed solid;
+    box-shadow: 0px 0px 5px .5px #94c8e2;
+}
+
+textArea:focus{
+    border-radius:3px;
+    border:2px #72b5ed solid;
+    box-shadow: 0px 0px 5px .5px #94c8e2;
+}
+
+.register_button{
+    line-height: 30px;
+    padding:0px 15px;
+    background: #c61e53;
+    font-weight: bold;
+    color: white;
+    border:1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.register_button:hover{
+    background: #8b0b36;
+    color: white;
+    transition: .5s;
+}
+
+.login{
+    float: left;
+    width: 43%;
+    margin: 80px 0% 50px 33%;
+}
+
+.login_pannel h1{
+    text-align: left;
+    color: #c61e53;
+    font-family: Agency FB;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.login_pannel p{
+    font-family: Microsoft Tai Le;
+    margin: 10px 0px;
+    font-weight: 200;
+    line-height: 21px;
+}
+
+.login label{
+    width: 90px; 
+}
+
+.login_in{
+    float: left;
+    font-family: Microsoft Tai Le;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.required{
+    color: #c61e53;
+    font-size: 18px;
+}
+
+.btn{
+    margin-left: 180px;
+}
+
+
+.login_button{
+    float: left;
+    line-height: 28px;
+    padding:0px 20px;
+    background: #c61e53;
+    font-weight: bold;
+    color: white;
+    border:1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.login_button:hover{
+    background: #8b0b36;
+    color: white;
+    transition: .5s;
+}
+
+
+.forgot_pass{
+    margin:30px 0px 0px 0px;
+    font-family: Microsoft Tai Le;
+    font-size: 14px;
+    color: #c61e53;
+}
+
+.forgot_pass a{
+    text-decoration: none;
+    color: #c61e53;
+}
+
+.indicates{
+    margin-left: 150px;
+    color: #8f9699;
+    font-family: Microsoft Tai Le;
+    font-size: 14px;
+}
+
+
+
+footer{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #333333;
+    border-top:3px #f07057 solid;
+}
+
+.footer-main{
+    height: 50px;
+    width: 80%;
+    margin-top: 25px;
+    padding: 0px;
+}
+
+.footer-main p{
+    color: wheat;
+    padding-left:50%;
+}
+
+.footer-box{
+    float:left;
+    height:100%;
+    width:31%;
+    background: white;
+    margin: 0px 1%;
+}
+
+.footer-box h6{
+    color: #948e8e;
+    font-size: 16px;
+    font-family: Microsoft Tai Le;
+    line-height: 10px;
+}
+
+
+/*forgot password page start------*/
+
+.forgot_pass_main{
+    float: left;
+    
+}
+
+.forgot_pass{
+    float: left;
+    margin: 50px 33% 0px 33%;
+    width: 34%;
+    height: 150px;
+    
+}
+.forgot_pass h1{
+    text-align: left;
+    color: #c61e53;
+    font-family: Agency FB;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.forgot_pass p{
+    font-family: Microsoft Tai Le;
+    margin: 10px;
+    font-weight: 200;
+    line-height: 21px;
+    color: #565656;
+}
+
+.forgot_pass_input{
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+
+.forgot_pass_in{
+    float: left;
+    font-family: Microsoft Tai Le;
+    height: 30px;
+    width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+forgot_pass_in:focus{
+    border:1px #72b5ed solid;
+    box-shadow: 0px 0px 5px .5px #94c8e2;
+}
+
+.forgot_pass_btn{
+    float: left;
+    height: 50px;
+    width: 300px;
+}
+
+.forgot_pass_button{
+    float: left;
+    line-height: 28px;
+    padding:0px 20px;
+    background: #c61e53;
+    font-weight: bold;
+    color: white;
+    border:1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.forgot_pass_button:hover{
+    background: #8b0b36;
+    color: white;
+    transition: .5s;
+}
+
+.or_image{
+    float:left;
+    margin:0px 65px 20px 65px;
+}
